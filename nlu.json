@@ -1,0 +1,1008 @@
+{
+  "project" : {
+    "id" : "cardif_demo-1004827-mQc",
+    "name" : "cardif_demo-1004827-mQc",
+    "folder" : "/platform"
+  },
+  "settings" : {
+    "language" : "en",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "regression",
+    "timezone" : "UTC",
+    "extendedSettings" : {
+      "classificationAlgorithmVersion" : 1.0
+    },
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : false,
+      "answerValidationEnabled" : false,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
+  },
+  "intents" : [ {
+    "path" : "/Gratitude",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "thanks"
+    }, {
+      "text" : "thank you very much"
+    }, {
+      "text" : "wow you helped me a lot"
+    }, {
+      "text" : "your support is very valuable for me"
+    }, {
+      "text" : "i'm thankful"
+    }, {
+      "text" : "i don't know what would i do without you"
+    }, {
+      "text" : "much appreciated"
+    }, {
+      "text" : "you’ve been a big help"
+    }, {
+      "text" : "i appreciate it"
+    }, {
+      "text" : "i’m so grateful"
+    }, {
+      "text" : "much obliged"
+    }, {
+      "text" : "you’re a lifesaver"
+    }, {
+      "text" : "please accept my deepest thanks"
+    }, {
+      "text" : "your assistance is sincerely appreciated"
+    }, {
+      "text" : "thank you for your time"
+    }, {
+      "text" : "you’re the best"
+    }, {
+      "text" : "cheers"
+    }, {
+      "text" : "i am truly blessed"
+    }, {
+      "text" : "i owe you one"
+    }, {
+      "text" : "thanks in advance"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Goodbye",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "bye"
+    }, {
+      "text" : "good night"
+    }, {
+      "text" : "this dialog was very productive"
+    }, {
+      "text" : "that's all, thanks"
+    }, {
+      "text" : "i want to stop conversation"
+    }, {
+      "text" : "farewell"
+    }, {
+      "text" : "all the best"
+    }, {
+      "text" : "goodbye"
+    }, {
+      "text" : "see you later"
+    }, {
+      "text" : "take care"
+    }, {
+      "text" : "catch you later"
+    }, {
+      "text" : "have a nice day"
+    }, {
+      "text" : "it was a pleasure speaking with you"
+    }, {
+      "text" : "gotta go, bye"
+    }, {
+      "text" : "keep in touch"
+    }, {
+      "text" : "speak to you then"
+    }, {
+      "text" : "ciao"
+    }, {
+      "text" : "laters"
+    }, {
+      "text" : "gotta bounce"
+    }, {
+      "text" : "i think i have everything i need"
+    }, {
+      "text" : "i won’t need further assistance"
+    }, {
+      "text" : "i'll reach out later"
+    }, {
+      "text" : "i need to end our chat for now"
+    }, {
+      "text" : "bye bye"
+    }, {
+      "text" : "wish you a good day, bye"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/TooExpensive",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "it is too expensive for me"
+    }, {
+      "text" : "policy is too expensive"
+    }, {
+      "text" : "i can't afford this type of product right now"
+    }, {
+      "text" : "i have a lot of debts"
+    }, {
+      "text" : "it costs a lot"
+    }, {
+      "text" : "i don't have that amount of money"
+    }, {
+      "text" : "the insurance rates are a bit high for my budget"
+    }, {
+      "text" : "i'm looking for more affordable options"
+    }, {
+      "text" : "the policies seem pricey"
+    }, {
+      "text" : "insurance costs are out of my price range"
+    }, {
+      "text" : "a bit excessive for my financial situation"
+    }, {
+      "text" : "i was hoping for something more budget-friendly"
+    }, {
+      "text" : "prices are tough for me"
+    }, {
+      "text" : "i really need to find something cheaper"
+    }, {
+      "text" : " looking for lower rates"
+    }, {
+      "text" : "need a better price point"
+    }, {
+      "text" : "i want to find a lower-cost option"
+    }, {
+      "text" : "i'm trying to save money right now"
+    }, {
+      "text" : "i can’t take on more insurance right now"
+    }, {
+      "text" : "i'm focused on paying off debt"
+    }, {
+      "text" : "i'm waiting to achieve more financial stability before I consider insurance"
+    }, {
+      "text" : "i need to budget carefully, so i'll skip insurance"
+    }, {
+      "text" : "my budget is tight with other expenses"
+    }, {
+      "text" : "that amount of money is unbearable for me"
+    }, {
+      "text" : "too big amount of money for me"
+    }, {
+      "text" : "don't have so much money"
+    }, {
+      "text" : "my financial situation is not under my control"
+    }, {
+      "text" : "i'm trying to save any money now"
+    }, {
+      "text" : "it isn't safe in my financial situation"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/DontNeed",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "i don't see the value in this policy"
+    }, {
+      "text" : "i'm not convinced I need this much coverage"
+    }, {
+      "text" : "i've never used policies before"
+    }, {
+      "text" : "i don't need insurance right now"
+    }, {
+      "text" : "not interested in insurance options"
+    }, {
+      "text" : "i'm good without coverage"
+    }, {
+      "text" : "i don't need insurance"
+    }, {
+      "text" : "i'll pass on the insurance for now"
+    }, {
+      "text" : "no need for a policy for me"
+    }, {
+      "text" : "i'm good without insurance"
+    }, {
+      "text" : "no policy needed"
+    }, {
+      "text" : "i'm not in the market for a policy at the moment"
+    }, {
+      "text" : "policies would be useless for me"
+    }, {
+      "text" : "i think policies are just a waste of money"
+    }, {
+      "text" : "i appreciate the offer, but I’m not looking for insurance"
+    }, {
+      "text" : "i don’t require any insurance options"
+    }, {
+      "text" : "i had a bad experience before, so i'm avoiding insurance for now"
+    }, {
+      "text" : "i'm not sure about my plans yet, so i won’t need insurance"
+    }, {
+      "text" : "i'm not ready to commit to insurance"
+    }, {
+      "text" : "i'm a bit skeptical about insurance"
+    }, {
+      "text" : "i'm trying to simplify my finances"
+    }, {
+      "text" : "insurance isn't on my list right now"
+    }, {
+      "text" : "insurance isn't on my radar"
+    }, {
+      "text" : "i've never used policies before"
+    }, {
+      "text" : "i'm good without coverage"
+    }, {
+      "text" : "it is just a waste of money"
+    }, {
+      "text" : "policies are a waste of my resources"
+    }, {
+      "text" : "i don't need any insurance options"
+    }, {
+      "text" : "i think i don't need it"
+    }, {
+      "text" : "i don't need policies, thanks"
+    }, {
+      "text" : "i do not need it"
+    }, {
+      "text" : "i'll pass on the insurance"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/OtherPriorities",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "i have other financial priorities right now"
+    }, {
+      "text" : "i'll think about insurance later"
+    }, {
+      "text" : "that's not what i care about right now"
+    }, {
+      "text" : "i have a lot of stuff i must spend money on"
+    }, {
+      "text" : "i save money for a house, i can't afford extra spendings"
+    }, {
+      "text" : "i'm focused on other priorities"
+    }, {
+      "text" : "i have health coverage, so i don't need additional policies"
+    }, {
+      "text" : "insurance isn’t a priority for me at this time"
+    }, {
+      "text" : "I’ll hold off on insurance"
+    }, {
+      "text" : "i need to assess my financial situation before considering insurance"
+    }, {
+      "text" : "i don't have any major assets to insure"
+    }, {
+      "text" : "i'm prioritizing my savings at the moment"
+    }, {
+      "text" : "i'm focusing on short-term goals right now"
+    }, {
+      "text" : "i'm waiting for tax season to see how my finances look"
+    }, {
+      "text" : "i’m putting my budget into home renovations"
+    }, {
+      "text" : "i'm putting my money towards my education"
+    }, {
+      "text" : "i'm planning for a family"
+    }, {
+      "text" : "i'm investing my funds into a new business venture"
+    }, {
+      "text" : "i'm more concerned about my immediate needs than insurance"
+    }, {
+      "text" : "i have some other financial commitments that I need to handle first"
+    }, {
+      "text" : "insurance can wait"
+    }, {
+      "text" : "my focus is on building an emergency fund instead"
+    }, {
+      "text" : "i'm not looking to add any new expenses right now"
+    }, {
+      "text" : "i need to save my funds for that"
+    }, {
+      "text" : "i'm prioritizing my savings over new insurance policies"
+    }, {
+      "text" : "i'll make a decision about insurance later"
+    }, {
+      "text" : "i prefer to care about other things"
+    }, {
+      "text" : "not what i'm care about for now"
+    }, {
+      "text" : "i care about other things"
+    }, {
+      "text" : "i have health coverage"
+    }, {
+      "text" : "i don't need additional policies"
+    }, {
+      "text" : "i don't search for additional insurance"
+    }, {
+      "text" : "i have other stuff to spend money on"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/CompanyInfo",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "what kind of company is this"
+    }, {
+      "text" : "tell me more about who you are"
+    }, {
+      "text" : "describe your company"
+    }, {
+      "text" : "i want to know more about you before i'll do anything"
+    }, {
+      "text" : "i don't have any information about you"
+    }, {
+      "text" : "can you tell me more about yourself"
+    }, {
+      "text" : "what services does you offer"
+    }, {
+      "text" : "what are your job"
+    }, {
+      "text" : "where do you work"
+    }, {
+      "text" : "how are you connected to magalu"
+    }, {
+      "text" : "how is cardif connected with magalu"
+    }, {
+      "text" : "which company is this"
+    }, {
+      "text" : "how does cardif relate to mangalu"
+    }, {
+      "text" : "are cardif and mangalu partners"
+    }, {
+      "text" : "what services does cardif offer"
+    }, {
+      "text" : "what does cardif specialize in"
+    }, {
+      "text" : "what do you do here"
+    }, {
+      "text" : "can you explain your role"
+    }, {
+      "text" : "how do you assist with insurance"
+    }, {
+      "text" : "what’s your purpose"
+    }, {
+      "text" : "tell me about who you are"
+    }, {
+      "text" : "i want to know more about you"
+    }, {
+      "text" : "i don't have any information about you"
+    }, {
+      "text" : "i don't have enough information"
+    }, {
+      "text" : "what is your connection with magalu"
+    }, {
+      "text" : "how do you connected to magalu"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/WhyIsCPFRequired",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "you won't steal my cpf"
+    }, {
+      "text" : "tell me why do you need my cpf"
+    }, {
+      "text" : "i'm worried about sharing my cpf"
+    }, {
+      "text" : "can you explain why you need my cpf"
+    }, {
+      "text" : "i feel uneasy about sharing my cpf online"
+    }, {
+      "text" : "you won't misuse my cpf, will you"
+    }, {
+      "text" : "can you guarantee my cpf won’t be shared with anyone else"
+    }, {
+      "text" : "why can't i provide a different form of id instead of my cpf"
+    }, {
+      "text" : "what happens to my cpf after I give it to you"
+    }, {
+      "text" : "can you explain how my cpf will be used"
+    }, {
+      "text" : "i need more info before I share my cpf"
+    }, {
+      "text" : "what do you plan to do with my cpf specifically"
+    }, {
+      "text" : "is my cpf really necessary for this process"
+    }, {
+      "text" : "why is my cpf more important than other info"
+    }, {
+      "text" : "why can’t you just verify my identity without my cpf"
+    }, {
+      "text" : "how do I know my cpf won’t end up on the dark web"
+    }, {
+      "text" : "what happens if i refuse to give my cpf"
+    }, {
+      "text" : "what will you do with my cpf"
+    }, {
+      "text" : "how does my cpf helps your company"
+    }, {
+      "text" : "can you explain why my cpf is important"
+    }, {
+      "text" : "how does my cpf help with my insurance"
+    }, {
+      "text" : "what’s the purpose of asking for my cpf"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/InfoSource",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "how did you know my product is expired"
+    }, {
+      "text" : "why are you convinced i need your help"
+    }, {
+      "text" : "from where did you get info about my product"
+    }, {
+      "text" : "is information about me in the open search"
+    }, {
+      "text" : "i'm sure this information must be private"
+    }, {
+      "text" : "how do you have my personal info"
+    }, {
+      "text" : "why do you know my contact details"
+    }, {
+      "text" : "where did you get my private data"
+    }, {
+      "text" : "is it normal for a chatbot to know this much about me"
+    }, {
+      "text" : "why do you have access to my personal information"
+    }, {
+      "text" : "how is it that you know my insurance status"
+    }, {
+      "text" : "why is my data available to you"
+    }, {
+      "text" : "are you hacked my account"
+    }, {
+      "text" : "i'm sure you shouldn't know this about me"
+    }, {
+      "text" : "how do you know my info"
+    }, {
+      "text" : "why do you know my contact number"
+    }, {
+      "text" : "do you know this because of data leaks"
+    }, {
+      "text" : "what allows you to see my policy info"
+    }, {
+      "text" : "did you hack my info or something"
+    }, {
+      "text" : "is there a secret way you know all this"
+    }, {
+      "text" : "is it legit that you know my information"
+    }, {
+      "text" : "why are you sure i need your help"
+    }, {
+      "text" : "why are you so convinced in what do i need"
+    }, {
+      "text" : "did you hack my account"
+    }, {
+      "text" : "are you a hacker"
+    }, {
+      "text" : "seems you hacked me"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/WhyIsAddressRequired",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "why do you need to know my address for product renewal"
+    }, {
+      "text" : "what will you do with my address"
+    }, {
+      "text" : "how does my address help your company"
+    }, {
+      "text" : "is my address necessary for this service"
+    }, {
+      "text" : "can you explain why my address is important"
+    }, {
+      "text" : "what do you need my address for specifically"
+    }, {
+      "text" : "why can’t you use other information instead of my address"
+    }, {
+      "text" : "how does my address help with my insurance"
+    }, {
+      "text" : "what’s the purpose of asking for my address"
+    }, {
+      "text" : "why is my address required for this process"
+    }, {
+      "text" : "do you share my address with other companies"
+    }, {
+      "text" : "what happens if i don’t provide my address"
+    }, {
+      "text" : "is my address used for marketing purposes"
+    }, {
+      "text" : "can you ensure my address won’t be sold to anyone"
+    }, {
+      "text" : "what is the main reason you need my address"
+    }, {
+      "text" : "can you explain how my address is essential for your service"
+    }, {
+      "text" : "why is having my address important"
+    }, {
+      "text" : "what specific tasks require my address"
+    }, {
+      "text" : "what benefits do you get from having my address"
+    }, {
+      "text" : "is getting my address to you secure"
+    }, {
+      "text" : "why it is important for you to know where i live"
+    }, {
+      "text" : "i'd prefer to keep my place of living in secret"
+    }, {
+      "text" : "i'm afraid of stakers and other creeps, so sharing address it's too incomfortable"
+    }, {
+      "text" : "is it nessesary to say my location"
+    }, {
+      "text" : "i don't share my location"
+    }, {
+      "text" : "why do you need to know my location"
+    }, {
+      "text" : "why my location is necessary"
+    }, {
+      "text" : "it is unsafe to say you my location"
+    }, {
+      "text" : "i prefer not to tell my residential details"
+    }, {
+      "text" : "can you confirm my residential details are required"
+    }, {
+      "text" : "i don't think my residential details are important"
+    }, {
+      "text" : "i don't give my residential details to strangers"
+    }, {
+      "text" : "my residential details are private"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/AreYouRobot",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "are you a robot"
+    }, {
+      "text" : "am i talking with a virtual assistant"
+    }, {
+      "text" : "are you alive"
+    }, {
+      "text" : "are you a human or a real girl"
+    }, {
+      "text" : "who are you"
+    }, {
+      "text" : "tell me more about yourself"
+    }, {
+      "text" : "are you a chatbot"
+    }, {
+      "text" : "am I chatting with a bot"
+    }, {
+      "text" : "are you a real person or a program"
+    }, {
+      "text" : "is there a human behind this chat"
+    }, {
+      "text" : "are you automated"
+    }, {
+      "text" : "is this a machine responding to me"
+    }, {
+      "text" : "is this an automated response"
+    }, {
+      "text" : "can you tell me if I'm chatting with a bot"
+    }, {
+      "text" : "is this conversation being handled by a bot"
+    }, {
+      "text" : "is this a real conversation or just programmed replies"
+    }, {
+      "text" : "can you tell me something personal about yourself"
+    }, {
+      "text" : "is this a human responding to me"
+    }, {
+      "text" : "is someone really there"
+    }, {
+      "text" : "are your replies generated by a machine"
+    }, {
+      "text" : "what are you"
+    }, {
+      "text" : "tell about yourself"
+    }, {
+      "text" : "how do you define yourself"
+    }, {
+      "text" : "identify yourself"
+    }, {
+      "text" : "are you a virtual assistant"
+    }, {
+      "text" : "are you anyting like a digital assistant"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/AreYouFrauds",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "is it a fraud"
+    }, {
+      "text" : "are you a scammer"
+    }, {
+      "text" : "sounds suspisious"
+    }, {
+      "text" : "you’re not having me on, are you"
+    }, {
+      "text" : "can you provide me with some proper credentials"
+    }, {
+      "text" : "this sounds a bit dodgy. can you clarify"
+    }, {
+      "text" : "this seems a bit fishy. can you prove you're legit"
+    }, {
+      "text" : "can you confirm you’re officially linked with cardif"
+    }, {
+      "text" : "can you provide proof of your affiliation with the cardif"
+    }, {
+      "text" : "this seems suspicious. can you clarify your purpose"
+    }, {
+      "text" : "why should i trust what you’re saying"
+    }, {
+      "text" : "where are proofs"
+    }, {
+      "text" : "where you calling from"
+    }, {
+      "text" : "from what organization you are"
+    }, {
+      "text" : "i don't trust your words"
+    }, {
+      "text" : "you may be a scammer"
+    }, {
+      "text" : "i don`t trust you"
+    }, {
+      "text" : "it is a scam"
+    }, {
+      "text" : "i'm not sure this conversation feels right"
+    }, {
+      "text" : "i'm worried this might be a scam"
+    }, {
+      "text" : "i've heard about insurance scams lately"
+    }, {
+      "text" : "i feel uneasy sharing my personal info here"
+    }, {
+      "text" : "can you prove who you are"
+    }, {
+      "text" : "i think this might be a scam"
+    }, {
+      "text" : "is this number real"
+    }, {
+      "text" : "prove who you are"
+    }, {
+      "text" : "is this some kind of trick"
+    }, {
+      "text" : "it feels shady"
+    }, {
+      "text" : "sounds like you are a scammer"
+    }, {
+      "text" : "this all looks like a scam scheme"
+    }, {
+      "text" : "i know about a lot of scammers like you"
+    }, {
+      "text" : "you're frauds"
+    }, {
+      "text" : "there are a lot of scammers nowdays"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Hi",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "hello"
+    }, {
+      "text" : "good morning"
+    }, {
+      "text" : "start conversation"
+    }, {
+      "text" : "can you restart our dialog"
+    }, {
+      "text" : "howdy"
+    }, {
+      "text" : "how are you"
+    }, {
+      "text" : "how have you been"
+    }, {
+      "text" : "hi, malu. nice to see you"
+    }, {
+      "text" : "good to see you"
+    }, {
+      "text" : "hello stranger"
+    }, {
+      "text" : "what’s up"
+    }, {
+      "text" : "how’s it going"
+    }, {
+      "text" : "how is everything"
+    }, {
+      "text" : "what's new"
+    }, {
+      "text" : "greetings"
+    }, {
+      "text" : "it’s a pleasure to meet you"
+    }, {
+      "text" : "pleased to meet you"
+    }, {
+      "text" : "hey there"
+    }, {
+      "text" : "good day"
+    }, {
+      "text" : "i recieved a link to you"
+    }, {
+      "text" : "i got a link to this channel"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Clarity",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "transfer me to an operator"
+    }, {
+      "text" : "i want to talk with a human"
+    }, {
+      "text" : "sorry, don't like chatbots"
+    }, {
+      "text" : "i’d prefer to discuss this with a human. can you help me"
+    }, {
+      "text" : "is there a way to speak with a human representative"
+    }, {
+      "text" : "who can I speak to for confirmation of this information"
+    }, {
+      "text" : "is there an option to chat with a sales agent"
+    }, {
+      "text" : "i’d prefer to talk to a person instead of a bot"
+    }, {
+      "text" : "is there a way to get in touch with a real person"
+    }, {
+      "text" : "i have some specific questions that I’d like to discuss with a human"
+    }, {
+      "text" : "i’d like to speak to a real person, if possible"
+    }, {
+      "text" : "could you transfer me to a person who can help"
+    }, {
+      "text" : "i’d prefer to talk to a human about this"
+    }, {
+      "text" : "i find it easier to communicate with a person"
+    }, {
+      "text" : "can you please transfer me to a sales agent"
+    }, {
+      "text" : "could you let me know how to reach a human support agent"
+    }, {
+      "text" : "can we skip to a human"
+    }, {
+      "text" : "can you connect me to a human"
+    }, {
+      "text" : "i want to talk to someone real"
+    }, {
+      "text" : "need a sales agent, please"
+    }, {
+      "text" : "is there a real person I can speak to"
+    }, {
+      "text" : "want to talk with operator"
+    }, {
+      "text" : "can you transfer me to operator"
+    }, {
+      "text" : "operator"
+    }, {
+      "text" : "i need an operator"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ImSafe",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "nothing's going to happen to me"
+    }, {
+      "text" : "policies are useless"
+    }, {
+      "text" : "i've never had something policy could help me with"
+    }, {
+      "text" : "i'm confident I won't need to worry about the policies"
+    }, {
+      "text" : "i'm sure I’ll be okay without buying insurance"
+    }, {
+      "text" : "i feel safe as is, so I won’t need to purchase anything"
+    }, {
+      "text" : "i’m okay without any coverage"
+    }, {
+      "text" : "i'll be fine without insurance"
+    }, {
+      "text" : "i feel secure enough already"
+    }, {
+      "text" : "i'm confident I'm safe"
+    }, {
+      "text" : "i'll pass on the policy"
+    }, {
+      "text" : "i'm all set for now, thanks"
+    }, {
+      "text" : "i'm confident I can manage on my own"
+    }, {
+      "text" : "i feel secure enough without insurance"
+    }, {
+      "text" : "i feel safe without any of your products"
+    }, {
+      "text" : "i prefer to handle risks as they come"
+    }, {
+      "text" : "i lead a pretty low-risk lifestyle"
+    }, {
+      "text" : "i don’t see any current risks in my situation"
+    }, {
+      "text" : "i'm exploring alternative ways to manage risk"
+    }, {
+      "text" : "i have a stable job and feel secure"
+    }, {
+      "text" : "i live in a low-risk area"
+    }, {
+      "text" : "i lead a healthy lifestyle and feel safe, so I’m not considering an insurance"
+    }, {
+      "text" : "i feel secure enough without any extra insurance"
+    }, {
+      "text" : "i've taken all necessary precautions"
+    }, {
+      "text" : "i'm good for now"
+    }, {
+      "text" : "i feel confident in my current safety measures"
+    }, {
+      "text" : "i'm content with my existing protection"
+    }, {
+      "text" : "i've already got a solid plan in place"
+    }, {
+      "text" : "i've got everything covered for now"
+    }, {
+      "text" : "i feel protected enough"
+    }, {
+      "text" : "i think nothing will happen with me"
+    }, {
+      "text" : "there is no any usage of insurances"
+    }, {
+      "text" : "insurances are useless"
+    }, {
+      "text" : "living my best life"
+    }, {
+      "text" : "live for the moment"
+    }, {
+      "text" : "i do not worry about the future"
+    }, {
+      "text" : "safe for now"
+    }, {
+      "text" : "policies have no sence"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.quantity",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.temperature",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.volume",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : false
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
+}

@@ -1,0 +1,28 @@
+name: basic-starter-bot
+
+entryPoint: main.sc
+
+botEngine: v2
+language: en
+
+nlp:
+  intentNoMatchThresholds:
+    phrases: 0.15
+    patterns: 0.2
+
+tests:
+  include:
+    - test.xml
+
+injector:
+  catchAllLimit: 3
+  paymentApi:
+    url: "http://10.40.40.4:12500"
+    tokens:
+      auth: PAYMENT_API_AUTH
+    endpoints:
+      getUserByPhone: /user/phone-number
+      getUserByDocument: /user/document-number
+      updateUserInfo: /user/update
+      checkEligibility: /eligible/check
+      getPaymentLink: /payment/request-link

@@ -1,0 +1,14 @@
+CompanyInfo:
+  example: What kind of company is this?
+  answer: I'm an insurance salesperson bot who works for SureThing Insurance
+WhyIsCPFRequired:
+  example: You won't steal my document number?
+  answer: I need your document number to validate your identity and identify your contract
+InfoSource:
+  example: How did you know my product is expired?
+  answer: I work for SureThing Insurance and have access to our client database
+WhyIsAddressRequired:
+  example: Why do you need to know my address for product renewal?
+  answer: The address of the place to be insured is mandatory for opening a home insurance policy
+AreYouRobot:
+  answer: I'm an insurance salesperson bot who works for SureThing Insurance
